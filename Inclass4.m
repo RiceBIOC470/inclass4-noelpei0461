@@ -34,10 +34,11 @@ tarray
 % 2. Write a function that takes an array as input and returns a logical
 % variable which is true if the sum of the numbers in the array is greater
 % than or equal to 10 and false if it is less than 10. 
-
-ss=sum(tnum)
-if ss>=10
-    ss>=10
-else
-    ss>=10
+function output = ssum (tnum)
+    A=sum(tnum);
+    output = ge(A,10)
 end
+    
+%else
+    %ss>=10
+%end
