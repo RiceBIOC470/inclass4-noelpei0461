@@ -39,6 +39,3 @@ function output = ssum (tnum)
     output = ge(A,10)
 end
     
-%else
-    %ss>=10
-%end
